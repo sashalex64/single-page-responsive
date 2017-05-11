@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     minifyHTML = require('gulp-htmlmin'),
     concat = require('gulp-concat');
-path = require('path');
+    path = require('path');
 
 var env,
     jsSources,

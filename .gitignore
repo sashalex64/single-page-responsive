@@ -2,5 +2,3 @@
 node_modules
 .sass-cache
 builds/**/images/*
-_gulp.js
-glp.js
