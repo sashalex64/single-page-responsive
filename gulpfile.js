@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     gulpif = require('gulp-if'),
     uglify = require('gulp-uglify'),
     minifyHTML = require('gulp-htmlmin'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
     path = require('path');
 
 var env,
@@ -52,6 +52,7 @@ gulp.task('compass', function() {
                 sass: 'components/sass',
                 css: outputDir + 'css',
                 image: outputDir + 'images',
+                sourcemap: false,
                 style: sassStyle,
                 require: ['susy', 'breakpoint']
             })
